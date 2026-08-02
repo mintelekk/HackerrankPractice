@@ -1,0 +1,11 @@
+/*
+Enter your query here.
+*/
+SELECT DISTINCT CITY
+FROM STATION
+WHERE ((NOT CITY LIKE "%a") AND
+(NOT CITY LIKE "%e") AND
+(NOT CITY LIKE "%i") AND
+(NOT CITY LIKE "%o") AND
+(NOT CITY LIKE "%u")
+)
